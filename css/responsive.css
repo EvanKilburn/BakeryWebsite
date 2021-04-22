@@ -1,0 +1,131 @@
+/*****************************************************************************/
+/* Some tablets and larger (768px) */
+/*****************************************************************************/
+@media only screen and (min-width: 768px) {
+    /********************************/
+    /* Colours, Borders and Shadows */
+    /********************************/
+    body {
+        background-image: url("[server-link]/img/bread.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100%;
+    }
+    
+    .column {
+    	background-color: #fffefb;
+    	background-image: none;
+    }
+    
+    main, footer {
+    	background-color: transparent;	
+    	background-image: none;
+    }
+    
+	header, header nav a, header nav a:visited {
+		color: #763523;
+	}          
+
+    header nav a:hover {
+    	color: #fffefb;
+    	background-color: #763523;
+    }
+    
+    footer {
+    	color: #000;	
+    }
+                	
+	header.column,
+	blockquote,
+	header img {
+		box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+	}
+
+    .column {
+    	box-shadow: -1px 1px 2px rgba(0, 0, 0, 0.5);
+       	border-bottom-left-radius: 6px;
+    	border-bottom-right-radius: 0;
+    }
+
+	header.column {
+       	border-bottom-left-radius: 0;
+    	border-bottom-right-radius: 6px;		
+	}
+
+	
+	/***************/
+	/* Transitions */
+	/***************/
+	header nav a {
+		transition: color 1s;	
+		transition: background-color 1s;	
+	}
+	
+
+    /***********/
+    /* Columns */
+    /***********/
+    .column-container {
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .column {
+    	flex: 2 1 400px;	       
+    }
+    	
+    header.column {
+        flex: 1 1 200px;
+        max-width: 300px;
+    	margin-right: 32px;        
+    }
+
+    form div.joined label {
+        flex: 1;
+        margin: 0px;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+        font-family: 'Neucha', Helvetica, sans-serif;
+    }
+
+    form div.joined input, form div.joined textarea {
+        margin: 0px;
+        flex: 1;
+    }
+
+    form div.joined {
+        display: flex;
+    }
+    
+    
+    /**********/
+    /* Header */
+    /**********/
+    #site-title {
+    	padding-left: 16px;
+    	padding-right: 16px;
+    }
+    
+    
+    /***********/
+    /* Content */
+    /***********/
+    body {
+    	min-height: 100vh;
+    }
+
+    form label{
+        min-width: 150px;
+        max-width: 200px;
+    }       
+}
+
+
+/*****************************************************************************/
+/* Desktops and larger (1200px) */
+/*****************************************************************************/
+@media only screen and (min-width: 1200px) {
+    form{
+        max-width: 1024px;
+    }
+}

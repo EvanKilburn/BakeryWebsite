@@ -1,0 +1,333 @@
+/*****************************************************************************/
+/* Colours */
+/* Cream/ivory: #fffefb */
+/* Beige: #ede2cd */
+/* Bread crust brown: #763523 */
+/*****************************************************************************/
+body {
+    color: ;
+    background-color: ;
+}
+
+a {
+	color: ;
+}    
+
+header nav a,
+header, footer {
+	color: ;
+}
+
+header, footer {
+   	background-image: url("[server-link]/a5/img/cake-overlay.jpg");
+   	background-repeat: no-repeat;
+   	background-size: cover;
+}
+
+blockquote, th {
+    background-color: ;         
+}
+
+
+/*****************************************************************************/
+/* Fonts */
+/*****************************************************************************/
+body {
+    font-family: 'IBM Plex Serif', Georgia, serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, #site-title, nav, button {
+    font-family: 'Neucha', Helvetica, sans-serif;
+}
+
+#site-title {
+    font-size: 2.5rem;    
+}
+
+h1 {
+    font-size: 2.0rem; 
+}
+
+h2 {
+    font-size: 1.75rem; 
+}
+
+h3 {
+    font-size: 1.5rem; 
+}
+
+nav a {
+    font-size: 1.375rem; 
+}
+
+
+/*****************************************************************************/
+/* Borders and Shadows */
+/*****************************************************************************/
+header, h1, h2, h3, h4, h5, h6, footer {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+th, td {
+	border: 1px solid black;
+}
+
+header nav a {
+    border-top: 1px solid #fffefb;
+}
+
+blockquote {
+	border-radius: 8px;
+}
+
+
+/*****************************************************************************/
+/* General */
+/*****************************************************************************/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding-top: 1em;
+	padding-bottom: 0;
+}
+
+img {
+	max-width: 100%;	
+}
+
+blockquote {
+    padding: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+blockquote .quote-source {
+    text-align: right;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 8px 16px;
+	text-align: center;
+}
+
+
+/*****************************************************************************/
+/*  Header */
+/*****************************************************************************/
+#logo {
+	margin: 0 auto 16px auto;
+	width: 150px;
+	border-radius: 50%;
+}
+
+header {
+	padding-top: 32px;
+    text-align: center;
+}
+
+#site-title {
+	margin-bottom: 16px;
+}
+
+header nav ul,
+header nav li {
+    margin: 0;
+    padding: 0;	
+}
+
+header nav li {
+    list-style-type: none;
+}
+
+header nav a {
+    display: block;
+    margin: 0;
+    padding: 16px 0;
+    text-decoration: none;
+}
+
+
+/*****************************************************************************/
+/* Content */
+/*****************************************************************************/
+main {
+	margin: 16px 32px 48px 32px;	
+}
+
+.directions li img {
+	display: block;
+	margin: 16px 0;		
+	max-height: 400px;
+}
+
+
+/*****************************************************************************/
+/* Recipe Heading Popup */
+/*****************************************************************************/
+#recipe-table th .text-and-popup {
+	position: relative;
+}
+
+#recipe-table th .text-and-popup .popup {
+	width: 200px;
+	padding: 16px;
+	
+	background-color: ;
+	color: ;
+	border-radius: 6px;
+	
+	position: absolute;
+	top: -8px;
+	left: -16px;
+	z-index: -9;
+
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+#recipe-table th:hover .text-and-popup .popup {
+	opacity: 1;
+	
+	z-index: 9;
+}
+
+
+/*****************************************************************************/
+/* Recipe Quantity Buttons */
+/*****************************************************************************/
+.quantity-button {
+	color: #763523;	
+	font-size: 1em;
+	
+	display: inline-block;
+	margin: 16px 8px 0 0;	
+	padding: 8px 16px;
+	border-radius: 6px;
+}
+
+                               
+/*****************************************************************************/
+/* Hide Directions */
+/*****************************************************************************/
+.directions {
+	padding-left: 3.5em;
+	position: relative;
+}
+
+.directions li {
+	margin: 0 0 1.0em 0.5em;
+}
+
+.directions li.hidden {
+	position: absolute;
+	left: -9999em;
+}
+
+.directions li .hide-direction {
+	position: absolute;
+	left: 0;
+
+	font-size: 1em;
+	color: ;
+	background-color: ;
+	
+	border-radius: 50%;
+}
+
+
+/*****************************************************************************/
+/*  Footer */
+/*****************************************************************************/
+footer {
+    padding: 32px;
+    text-align: center;
+}
+
+/*****************************************************************************/
+/*  Displayed Comments */
+/*****************************************************************************/
+
+.submit-button {
+	color: ;	
+	font-size: 1em;
+	margin: 0;
+	display: inline-block;
+	padding: 8px 16px;
+	border-radius: 6px;
+	float: right;
+	font-family: 'Neucha', Helvetica, sans-serif;
+}
+
+.pad-down-8{
+	padding-bottom: 8px;
+}
+
+.pad-down-16{
+	padding-bottom: 16px;
+}
+
+.comment-brown{
+	background-color: ;
+	border-radius: 8px;
+    margin-bottom: 16px;
+}
+.comment-name{
+	padding-bottom: 4px;
+	padding-top: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	font-family: 'Neucha', Helvetica, sans-serif;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.comment-date{
+	padding-bottom: 8px;
+	padding-left: 16px;
+	padding-right: 16px;
+	font-family: 'Neucha', Helvetica, sans-serif;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.comment-text{
+	padding-bottom: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.thanks-pad{
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+   	font-family: 'Neucha', Helvetica, sans-serif;
+}
+.hide-button{
+	color: rbga(0,0,0,.5);
+}
+form div label {
+	vertical-align: middle;	
+}
