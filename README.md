@@ -20,15 +20,15 @@ The website has 3 pages with the first index.php being the landing page with a b
 - jQuery
 
 ## Images/Videos of Completed Website
-- Desktop/tablet display
-
-- Mobile display
-
-- index.php
+#### Desktop/tablet display
+https://youtu.be/X1uN9i7EQCM
+#### Mobile display
+https://youtu.be/HdWF5R7i8xA
+#### index.php
 <img width="1440" alt="index page" src="https://user-images.githubusercontent.com/36580680/115765754-24de9480-a375-11eb-91c1-2c80ecba768c.png">
-- recipes.php
+#### recipes.php
 <img width="1440" alt="recipe page" src="https://user-images.githubusercontent.com/36580680/115765812-3758ce00-a375-11eb-92a7-7d374458c8bc.png">
-- pizza-dough.php
+#### pizza-dough.php
 <img width="1440" alt="pizza dough page - top" src="https://user-images.githubusercontent.com/36580680/115765963-61aa8b80-a375-11eb-8796-f3349b896f42.png">
 <img width="1440" alt="pizza dough page - step by step" src="https://user-images.githubusercontent.com/36580680/115765987-67a06c80-a375-11eb-9a55-da50f8e52d60.png">
 <img width="1440" alt="pizza dough page - comments" src="https://user-images.githubusercontent.com/36580680/115765996-6bcc8a00-a375-11eb-8fd3-4f8c2c378189.png">
